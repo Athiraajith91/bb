@@ -1,0 +1,79 @@
+.hero_image
+{
+    background-image: url(pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    position: relative;
+}
+.hero_wrapper
+{
+color: white;
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* utility classes*/
+.img-responsive
+{
+    max-width: 100%;
+}
+.hero_wrapper h1
+{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.form_code .post_code
+{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+}
+.form_code button
+{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+    background-color: #00bab1;
+    color: white;
+    padding: 0.3em;
+    border: none;
+    border-radius: o.3rem;
+    margin-top: 1rem;
+}
+.product
+{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0.3rem;
+}
+.product_list_item
+{
+    float: left;
+    width: 32%;
+    margin-left: 0.5rem;
+}
+
+.product_list_item:first-of-type{
+    margin-left: 0;
+}
+
+@media screen and (max-width: 700px){
+    .product_list_item{
+        width: 100%;
+        float: none;
+    }
+}
+    
